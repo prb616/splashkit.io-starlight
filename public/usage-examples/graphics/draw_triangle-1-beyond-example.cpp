@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
         SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 400, SDL_WINDOW_SHOWN);
     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-    // Load font
+    // Load  font
     TTF_Font *font = TTF_OpenFont("arial.ttf", 14);
     if (!font)
     {
